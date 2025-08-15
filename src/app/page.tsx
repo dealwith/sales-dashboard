@@ -24,11 +24,11 @@ export default async function Home() {
               <Button variant="outline">View Pipeline</Button>
             </Link>
             <Link href="/leads/new">
-              <Button>Add New Lead</Button>
+              <Button variant="default">Add New Lead</Button>
             </Link>
           </div>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <Card>
             <CardHeader>
@@ -38,7 +38,7 @@ export default async function Home() {
               <div className="text-2xl font-bold">0</div>
             </CardContent>
           </Card>
-          
+
           <Card>
             <CardHeader>
               <CardTitle>Active Deals</CardTitle>
@@ -47,7 +47,7 @@ export default async function Home() {
               <div className="text-2xl font-bold">0</div>
             </CardContent>
           </Card>
-          
+
           <Card>
             <CardHeader>
               <CardTitle>Calls Today</CardTitle>
